@@ -1,0 +1,15 @@
+Hello, please convert the attached answer key image into a CSV format with the following strict rules:
+
+The very first line must be the Topic Name only.
+The second line must be the exact header: Question,Answer
+All subsequent lines must be the question number, a comma, and the single lowercase answer letter (a, b, c, or d).
+There should be no empty lines in the file.
+Here is a perfect example of the final format:
+
+csv
+electrochemistry class 12 physics
+Question,Answer
+1,c
+2,a
+3,d
+4,b
