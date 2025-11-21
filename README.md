@@ -30,7 +30,7 @@ It may look something like
 
 ### 4. Click the pic of Answer key
 
-### 5. Paste the pic in ChatGPT/Gemini/Copilot, along with the text written inside the file [Prompt to get CSV Answer key for OMR Marking NEET →](./Prompt to get CSV Answer key for OMR Marking NEET.txt)
+### 5. Paste the pic in ChatGPT/Gemini/Copilot, along with the text written inside the file [Prompt to get CSV Answer key for OMR Marking NEET (./Prompt_to_get_CSV_Answer_key_for_OMR_Marking_NEET.txt)
 
 ### 6. In response, you will get the answer key, paste it in the [answers.csv file](./answers.csv)
 
@@ -40,6 +40,15 @@ It may look something like
 <Chapter/Topic Name>
 Question,Answer
 <Question_number, Correct_Option in alphabet (a/b/c/d)>
+```
+Example
+```bash
+Coordination Compounds
+Question,Answer
+1,a
+2,b
+3,c
+4,d
 ```
 
 ### 8. Open the [Marked_OMR_Creation](./Marked_OMR_Creation.py)
